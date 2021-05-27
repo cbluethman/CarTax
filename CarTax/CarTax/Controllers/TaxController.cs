@@ -56,7 +56,7 @@ namespace CarTax.Controllers
 				else
 				{
 					tr.formula = "progressive";
-					tr.tax = (1 + rate) * income;
+					tr.tax = rate * income;
 				}
 			}
 			else
